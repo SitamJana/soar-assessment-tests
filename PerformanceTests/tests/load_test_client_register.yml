@@ -1,0 +1,15 @@
+config:
+  target: "http://127.0.0.1:5000" # Replace with your server's base URL
+  phases:
+    - duration: 60    # Duration of the test (in seconds)
+      arrivalRate: 10 # Number of requests per second to simulate load
+scenarios:
+  - flow:
+      - post:
+          url: "/client_registeration"
+          json:
+            fullName: "Test User"
+            userName: "testuser"
+            email: "testuser@example.com"
+            password: "Test@1234"
+            phone: "1234567890"

@@ -1,0 +1,4 @@
+Artillery Cloud Test Run report can be found here - 
+    1) Load Test: Registration - https://app.artillery.io/share/sh_dfeb04883d62b6928b1483cc8e9988f4731eac5d59087d4281484fffd01af16e
+    2) Stress Test: Login - https://app.artillery.io/share/sh_b90eda821de1a901e6e141c5266de99ebd59cbd6f2c5a7de9b05cf441320f362
+    3) BDD Load Test: Registration & Login - https://app.artillery.io/share/sh_b7df60a161bc406d3c94b947132bac7c181f45f9c614f1b2a72a183c5d28a847

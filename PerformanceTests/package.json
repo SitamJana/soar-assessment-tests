@@ -1,0 +1,19 @@
+{
+  "name": "flask-app-performance-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "load-test:register": "artillery run tests/load_test_client_register.yml -o report/load_test_client_register.json",
+    "stress-test:login": "artillery run tests/stress_test_client_login.yml -o report/stress_test_client_login.json",
+    "bdd-load-tests": "artillery run tests/bdd_load_test_register_and_login.yml -o report/bdd_test_results.json",
+    "generate:load-test-report": "artillery report report/load_test_client_register.json --output report/load_test_client_register_report.html",
+    "generate:stress-test-report": "artillery report report/stress_test_client_login.json --output report/stress_test_client_login_report.html",
+    "generate:bdd-load-test-report": "artillery report report/bdd_test_results.json --output report/bdd_test_report.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "artillery": "^2.0.21"
+  }
+}

@@ -1,0 +1,18 @@
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Install Dependencies
+        run: npm install -g artillery
+
+      - name: Run BDD Load Test
+        run: artillery tests/run bdd_test.yml -o bdd_test_results.json
+
+      - name: Upload Test Report
+        uses: actions/upload-artifact@v3
+        with:
+          name: bdd-test-results
+          path: bdd_test_results.json

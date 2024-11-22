@@ -1,0 +1,42 @@
+config:
+  target: "http://127.0.0.1:5000" # Replace with your server's base URL
+  phases:
+    - duration: 60    # Duration of the test (in seconds)
+      arrivalRate: 10 # 10 concurrent users per second
+scenarios:
+  - name: "Register New User"
+    flow:
+      - post:
+          url: "/client_registeration"
+          json:
+            fullName: "{{ fullName }}"
+            userName: "{{ userName }}"
+            email: "{{ email }}"
+            password: "{{ password }}"
+            phone: "{{ phone }}"
+    data:
+      - fullName: "Test User 1"
+        userName: "user1"
+        email: "user1@example.com"
+        password: "Password1@"
+        phone: "1111111111"
+      - fullName: "Test User 2"
+        userName: "user2"
+        email: "user2@example.com"
+        password: "Password2@"
+        phone: "2222222222"
+  - name: "Login User"
+    flow:
+      - post:
+          url: "/client_login"
+          json:
+            userName: "{{ userName }}"
+            email: "{{ email }}"
+            password: "{{ password }}"
+    data:
+      - userName: "user1"
+        email: "user1@example.com"
+        password: "Password1@"
+      - userName: "user2"
+        email: "user2@example.com"
+        password: "Password2@"

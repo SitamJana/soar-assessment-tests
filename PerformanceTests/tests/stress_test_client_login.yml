@@ -1,0 +1,17 @@
+config:
+  target: "http://127.0.0.1:5000" # Replace with your server's base URL
+  phases:
+    - duration: 30    # Ramp-up period
+      arrivalRate: 5  # Start with 5 requests per second
+    - duration: 30    # Peak load
+      arrivalRate: 20 # Simulate stress with 20 requests per second
+    - duration: 30    # Ramp-down period
+      arrivalRate: 5
+scenarios:
+  - flow:
+      - post:
+          url: "/client_login"
+          json:
+            userName: "testuser"
+            email: "testuser@example.com"
+            password: "Test@1234"
