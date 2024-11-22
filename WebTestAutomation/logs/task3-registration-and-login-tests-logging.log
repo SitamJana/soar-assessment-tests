@@ -1,0 +1,16 @@
+2024-11-23 01:41:42.673 AM [] info: Navigating to the User Registration page
+2024-11-23 01:41:46.466 AM [] info: Sleeping for 3 second(s)
+2024-11-23 01:41:49.471 AM [] info: Closing the welcome banner
+2024-11-23 01:41:49.641 AM [] info: Sleeping for 1 second(s)
+2024-11-23 01:41:50.646 AM [] info: Dismissing cookie message
+2024-11-23 01:41:50.824 AM [] info: Validating password advice card displays
+2024-11-23 01:41:51.655 AM [] info: Registering a new user with Email: Berta18@yahoo.com and Password: l3NS6nvc)E
+2024-11-23 01:41:53.737 AM [] info: Registered a new user with Email: Berta18@yahoo.com and Password: l3NS6nvc)E
+2024-11-23 01:41:53.737 AM [] info: Validating registration successful message displayed on page
+2024-11-23 01:41:54.731 AM [] info: Navigating to the Login page
+2024-11-23 01:41:54.749 AM [] info: Sleeping for 2 second(s)
+2024-11-23 01:41:56.757 AM [] info: Closing the welcome banner
+2024-11-23 01:41:56.769 AM [] info: Sleeping for 1 second(s)
+2024-11-23 01:41:57.774 AM [] info: Dismissing cookie message
+2024-11-23 01:41:57.792 AM [] info: Login with Email: Berta18@yahoo.com and Password: l3NS6nvc)E
+2024-11-23 01:41:58.359 AM [] info: Validating login in successful

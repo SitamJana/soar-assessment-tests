@@ -1,0 +1,11 @@
+2024-11-23 01:41:30.365 AM [] info: Navigating to the Product List page
+2024-11-23 01:41:35.208 AM [] info: Sleeping for 2 second(s)
+2024-11-23 01:41:37.220 AM [] info: Closing the welcome banner
+2024-11-23 01:41:37.308 AM [] info: Sleeping for 1 second(s)
+2024-11-23 01:41:38.312 AM [] info: Dismissing cookie message
+2024-11-23 01:41:38.347 AM [] info: Clicking on 1 product
+2024-11-23 01:41:38.784 AM [] info: Expanding product reviews
+2024-11-23 01:41:39.066 AM [] info: Sleeping for 1 second(s)
+2024-11-23 01:41:40.069 AM [] info: Validating product reviews displayed
+2024-11-23 01:41:40.144 AM [] info: Closing product details dialog
+2024-11-23 01:41:40.279 AM [] info: Sleeping for 1 second(s)

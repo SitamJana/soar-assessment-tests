@@ -1,0 +1,25 @@
+{
+  "name": "owasp-juice-shop-test-automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "report": "npx playwright show-report",
+    "test:product-list": "npm test -- --grep @products",
+    "test:product-reviews": "npm test -- --grep @reviews",
+    "test:register-login": "npm test -- --grep @register",
+    "test:order": "npm test -- --grep @order"
+  },
+  "keywords": [],
+  "author": "Sitam Jana",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@faker-js/faker": "^9.2.0",
+    "@playwright/test": "^1.45.3",
+    "@types/node": "^20.14.12"
+  },
+  "dependencies": {
+    "winston": "^3.13.1"
+  }
+}

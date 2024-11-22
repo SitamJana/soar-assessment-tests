@@ -1,0 +1,28 @@
+2024-11-23 01:41:55.100 AM [] info: Navigating to the User Registration page
+2024-11-23 01:41:58.658 AM [] info: Sleeping for 3 second(s)
+2024-11-23 01:42:01.673 AM [] info: Closing the welcome banner
+2024-11-23 01:42:01.751 AM [] info: Sleeping for 1 second(s)
+2024-11-23 01:42:02.756 AM [] info: Dismissing cookie message
+2024-11-23 01:42:02.783 AM [] info: Registering a new user with Email: Claudia48@yahoo.com and Password: Jyb71I=DZc
+2024-11-23 01:42:03.442 AM [] info: Registered a new user with Email: Claudia48@yahoo.com and Password: Jyb71I=DZc
+2024-11-23 01:42:03.442 AM [] info: Navigating to the Login page
+2024-11-23 01:42:03.496 AM [] info: Sleeping for 2 second(s)
+2024-11-23 01:42:05.503 AM [] info: Closing the welcome banner
+2024-11-23 01:42:05.526 AM [] info: Sleeping for 1 second(s)
+2024-11-23 01:42:06.533 AM [] info: Dismissing cookie message
+2024-11-23 01:42:06.573 AM [] info: Login with Email: Claudia48@yahoo.com and Password: Jyb71I=DZc
+2024-11-23 01:42:06.787 AM [] info: Adding 5 products to basket
+2024-11-23 01:42:07.682 AM [] info: Sleeping for 1 second(s)
+2024-11-23 01:42:08.856 AM [] info: Sleeping for 1 second(s)
+2024-11-23 01:42:09.931 AM [] info: Sleeping for 1 second(s)
+2024-11-23 01:42:11.080 AM [] info: Sleeping for 1 second(s)
+2024-11-23 01:42:12.229 AM [] info: Sleeping for 1 second(s)
+2024-11-23 01:42:13.232 AM [] info: Navigating to basket page
+2024-11-23 01:42:13.259 AM [] info: Validating adding or removing quanity updating cart total
+2024-11-23 01:42:13.738 AM [] info: Sleeping for 2 second(s)
+2024-11-23 01:42:15.821 AM [] info: Sleeping for 2 second(s)
+2024-11-23 01:42:17.833 AM [] info: Place an order
+2024-11-23 01:42:17.910 AM [] info: Adding a new address
+2024-11-23 01:42:19.984 AM [] info: validating Wallet Balance to be Zero
+2024-11-23 01:42:20.383 AM [] info: Adding a new debit or credit card info
+2024-11-23 01:42:21.936 AM [] info: validating Order placement was successful
