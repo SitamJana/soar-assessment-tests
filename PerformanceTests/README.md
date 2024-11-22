@@ -54,4 +54,7 @@ npm run bdd-load-tests
 
 ### Reports
 1. Results will be saved to `report` folder post the test run.
-2. Cloud test sample run report can be found under `cloud-test-report-details.txt` file
+2. Cloud test sample run report can be found under `cloud-test-report-details.txt` file.
+
+### Apptim - Wikipedia App Performance Report
+Apptim - Wikipedia App Performance Report can be found under `Apptim - Wikipedia App Performance Tests.pdf` document.
